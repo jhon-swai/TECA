@@ -1,4 +1,27 @@
 <resources>
     <string name="app_name">TECA</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="login_button_text">Login</string>
+    <string name="email_sample">john.doe@example.com</string>
+    <string name="password_sample">*********</string>
+    <string name="register_instead">Don\'t have an account? Regiser instead</string>
+    <string name="login_welcome">Welcome!</string>
+    <string name="login_prompt">Enter your credentials to continue</string>
+    <string name="main_welcome">Welcome to TECA</string>
+    <string name="register_button">Register</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="first_name_label">First Name</string>
+    <string name="last_name_label">Last Name</string>
+    <string name="login_instead">Have an account? Login instead</string>
+    <string name="first_name_sample">John</string>
+    <string name="last_name_sample">Doe</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="registration_welcome">Please enter your credentials</string>
+    <string name="teca_intro">We are here to link developers and students. We give room for developers to provide virtual assistance</string>
+    <string-array name="dev_or_student">
+        <item>Developer</item>
+        <item>Student</item>
+    </string-array>
 </resources>

@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TECA">
         <activity
+            android:name=".CategoriesUserActivity"
+            android:exported="true" />
+        <activity
             android:name=".RegistrationActivity"
             android:exported="true" />
         <activity

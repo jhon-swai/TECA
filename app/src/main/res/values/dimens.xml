@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_border">18dp</dimen>
+    <dimen name="btn_small_radius">25dp</dimen>
+    <dimen name="title_size">34sp</dimen>
+</resources>

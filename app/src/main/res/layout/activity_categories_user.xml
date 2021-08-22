@@ -4,69 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".CategoriesUserActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="@string/main_welcome"
-        android:textColor="#4A4A4A"
-        android:textSize="24sp"
+        android:layout_marginStart="@dimen/app_border"
+        android:layout_marginEnd="@dimen/app_border"
+        android:text="Almost There"
+        android:textColor="@color/btn_black_label"
+        android:textSize="@dimen/title_size"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/toMapBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.679" />
+        app:layout_constraintVertical_bias="0.052" />
 
-    <Button
-        android:id="@+id/toMapBtn"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/app_border"
-        android:layout_marginEnd="@dimen/app_border"
-        android:layout_marginBottom="504dp"
-        android:text="Map"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btnMainLogin"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/app_border"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="@dimen/app_border"
-        android:layout_marginBottom="16dp"
-        android:text="@string/login_button_text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toMapBtn"
-        app:layout_constraintVertical_bias="0.027" />
-
-    <Button
-        android:id="@+id/btnMainRegister"
+    <TextView
+        android:id="@+id/textView6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/app_border"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="@dimen/app_border"
         android:layout_marginBottom="16dp"
-        android:text="@string/register_button"
+        android:text="@string/teca_intro"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMainLogin"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/app_border"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/app_border"
+        android:layout_marginBottom="16dp"
+        android:text="Where do you stand as?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <Spinner
+        android:id="@+id/dev_or_student_spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/app_border"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/app_border"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

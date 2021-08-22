@@ -8,17 +8,37 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button toMapButton;
+    private Button mToMapButton;
+    private Button mLoginButton;
+    private Button mRegisterButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        toMapButton = (Button) findViewById(R.id.toMapBtn);
-        toMapButton.setOnClickListener( View -> {
-            Intent intent = new Intent(MainActivity.this, MapsActivity.class);
-            startActivity(intent);
+        mToMapButton = (Button) findViewById(R.id.toMapBtn);
+        mLoginButton = (Button) findViewById(R.id.btnMainLogin);
+        mRegisterButton = (Button) findViewById(R.id.btnMainRegister);
+        setButtonOnClickListeners();
+
+    }
+
+    public void setButtonOnClickListeners(){
+        // map click listener
+        mToMapButton.setOnClickListener(View -> {
+            startActivity(new Intent(MainActivity.this, MapsActivity.class));
         });
+
+        // login click listener
+        mLoginButton.setOnClickListener(View -> {
+           startActivity(new Intent(this, LoginActivity.class));
+        });
+
+        // register click listener
+        mRegisterButton.setOnClickListener(View -> {
+            startActivity(new Intent(this, RegistrationActivity.class));
+        });
+
     }
 }
