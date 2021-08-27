@@ -20,6 +20,7 @@
     <string name="welcome_text">Welcome!</string>
     <string name="registration_welcome">Please enter your credentials</string>
     <string name="teca_intro">We are here to link developers and students. We give room for developers to provide virtual assistance</string>
+    <string name="user_position">Your Position</string>
     <string-array name="dev_or_student">
         <item>Developer</item>
         <item>Student</item>
