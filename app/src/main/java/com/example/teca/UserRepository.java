@@ -1,6 +1,7 @@
 package com.example.teca;
 
 import android.app.Application;
+import android.util.Log;
 
 import java.util.List;
 
@@ -41,9 +42,9 @@ public class UserRepository {
     UserEntity userLogin(String email, String password){
         UserDatabase.databaseWriteExecutor.execute(() ->{
             mUserLogin = mUserDao.userLogin(email, password);
+            Log.d("DARTH VEDER", "Repository thread done");
         });
         return mUserLogin;
     }
-
 
 }

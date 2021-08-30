@@ -16,6 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TECA">
         <activity
+            android:name=".MessageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChatRoomActivity"
+            android:exported="true" />
+        <activity
             android:name=".CategoriesUserActivity"
             android:exported="true" />
         <activity

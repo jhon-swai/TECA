@@ -13,4 +13,5 @@
     <color name="title_color">#444444</color>
     <color name="welcome_desciption">#999A9A</color>
     <color name="milky_white">#E4DCDB</color>
+    <color name="colorPrimaryDark">#1E88E5</color>
 </resources>

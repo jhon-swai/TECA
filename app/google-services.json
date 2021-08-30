@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1067595051918",
+    "firebase_url": "https://chitchat-b7496-default-rtdb.firebaseio.com",
+    "project_id": "chitchat-b7496",
+    "storage_bucket": "chitchat-b7496.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067595051918:android:770a0a5467cbeb3e24eadf",
+        "android_client_info": {
+          "package_name": "com.example.chitchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067595051918-ri5mvib2fp49oj1ua7vg12jgggob2f0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZQTFlTOb-MpZHEo88fsK92GvZkKu6dFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067595051918-ri5mvib2fp49oj1ua7vg12jgggob2f0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067595051918:android:adf55d53c2cd772a24eadf",
+        "android_client_info": {
+          "package_name": "com.example.teca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067595051918-ri5mvib2fp49oj1ua7vg12jgggob2f0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZQTFlTOb-MpZHEo88fsK92GvZkKu6dFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067595051918-ri5mvib2fp49oj1ua7vg12jgggob2f0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
